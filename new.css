@@ -1,9 +1,7 @@
 #coverpage{
     background-image: url(img/portfolio-removebg-preview\ \(1\).png);
-    background-size: cover;
-   width: 50%;
-    height: 150vh;
-    margin-left: 30%;
+    background-repeat: no-repeat;
+  background-position: right; /* moves image to the right */
 }
 
 .nav1 {
