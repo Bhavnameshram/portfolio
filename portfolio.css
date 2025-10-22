@@ -83,3 +83,43 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
 }
+.data h1 span{
+    color: rgb(122, 10, 10);
+}
+
+/* about section */
+
+
+#about{
+    padding: 80px 0;
+    color: beige;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col1{
+    flex-basis: 35%;
+    /* width of the colum */
+    margin-left: 30px;
+}
+.col1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.col2{
+    margin-top: 40px;
+    flex-basis: 60%;
+}
+.data2{
+    font-size: 60px;
+    font-weight: 600;
+    color: bisque;
+}
+.data2-1{
+    display: flex;
+    margin: 20px  0 40px;
+    /* margin from to 20px ,0 left and right ,40px from the bottom */
+}
+.data-links
