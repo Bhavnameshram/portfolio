@@ -64,7 +64,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: rgb(58, 6, 6);
+    background: rgb(177, 35, 35);
     position: absolute;
     left:0;
     bottom: -6px;
@@ -72,4 +72,14 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+.data{
+    margin-top: 20%;
+    font-size: 30px;
+
+
+}
+.data h1{
+    font-size: 60px;
+    margin-top: 20px;
 }
