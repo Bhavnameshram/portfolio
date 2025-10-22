@@ -66,7 +66,7 @@ nav ul li a::after{
     height: 3px;
     background: rgb(177, 35, 35);
     position: absolute;
-    left:0;
+    left: 0;
     bottom: -6px;
     transition: 0.5s;
 }
@@ -122,4 +122,53 @@ nav ul li a:hover::after{
     margin: 20px  0 40px;
     /* margin from to 20px ,0 left and right ,40px from the bottom */
 }
-.data-links
+.data-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.data-link:: after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(20, 188, 93);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.data-links.2nd-link::after{
+    width: 50%;
+}
+
+.data2-2 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.data2-2 ul li span{
+    color: rgb(92, 7, 7);
+    font-size: 14px;
+}
+.data2-2{
+    display: none;
+    /* it will be hide a tab content */
+}
+.data2-2.current{
+    display: block;
+}
+
+
+/*       services            */
+#services{
+    margin: 30px;
+    padding: 30px 0;
+    /* 30px fron top and btn left right 0 */
+}
+.data3-list{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px,1fr));
+    gap: 40px;
+    margin-top: 50px;
+}
