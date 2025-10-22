@@ -6,9 +6,10 @@
 }
 
 body {
-    background-color: linear-gradients( to right, #f9f5f0, #fcefe8);
+    /* background-color: linear-gradients( to right, #f9f5f0, #fcefe8); */
+    background-color: black;
     position: relative;
-    color: #150606;
+    color: beige;
 
 }
 
@@ -19,9 +20,11 @@ body {
     background-image: url(img/portfolio-removebg-preview\ \(1\).png);
     /* width: 50%; */
     background-repeat: no-repeat;
-    background-position: right; /* moves image to the right */
-     background-size: contain; /* property of size */
-     
+    background-position: right;
+    /* moves image to the right */
+    background-size: contain;
+    /* property of size */
+
 }
 
 .container {
@@ -39,6 +42,8 @@ nav {
 }
 
 .logo {
+    margin-left: -81px;
+    /* padding:2px; */
     width: 140px;
 }
 
@@ -46,4 +51,25 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    /* color: beige; */
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(58, 6, 6);
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
 }
