@@ -53,14 +53,15 @@ nav ul li {
     margin: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
     /* color: beige; */
 }
-nav ul li a::after{
+
+nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -70,66 +71,78 @@ nav ul li a::after{
     bottom: -6px;
     transition: 0.5s;
 }
-nav ul li a:hover::after{
+
+nav ul li a:hover::after {
     width: 100%;
 }
-.data{
+
+.data {
     margin-top: 20%;
     font-size: 30px;
 
 
 }
-.data h1{
+
+.data h1 {
     font-size: 60px;
     margin-top: 20px;
 }
-.data h1 span{
+
+.data h1 span {
     color: rgb(122, 10, 10);
 }
 
 /* about section */
 
 
-#about{
+#about {
     padding: 80px 0;
     color: beige;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.col1{
+
+.col1 {
     flex-basis: 35%;
     /* width of the colum */
     margin-left: 30px;
 }
-.col1 img{
+
+.col1 img {
     width: 100%;
     border-radius: 15px;
 }
-.col2{
+
+.col2 {
     margin-top: 40px;
     flex-basis: 60%;
 }
-.data2{
+
+.data2 {
     font-size: 60px;
     font-weight: 600;
     color: bisque;
 }
-.data2-1{
+
+.data2-1 {
     display: flex;
-    margin: 20px  0 40px;
+    margin: 20px 0 40px;
     /* margin from to 20px ,0 left and right ,40px from the bottom */
 }
-.data-links{
+
+.data-links {
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
 }
-.data-link:: after{
+
+.data-link:: after {
     content: '';
     width: 0;
     height: 3px;
@@ -139,52 +152,70 @@ nav ul li a:hover::after{
     bottom: -8px;
     transition: 0.5s;
 }
-.data-links.2nd-link::after{
+
+.data-links.2nd-link::after {
     width: 50%;
 }
 
-.data2-2 ul li{
+.data2-2 ul li {
     list-style: none;
     margin: 10px 0;
 }
-.data2-2 ul li span{
+
+.data2-2 ul li span {
     color: rgb(92, 7, 7);
     font-size: 14px;
 }
-.data2-2{
+
+.data2-2 {
     display: none;
     /* it will be hide a tab content */
 }
-.data2-2.current{
+
+.data2-2.current {
     display: block;
 }
 
 
 /*  ---------- services  ------------          */
-#services{
+#services {
     margin: 30px;
     padding: 30px 0;
     /* 30px fron top and btn left right 0 */
 }
-.data3-list{
+
+.data3-list {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
     margin-top: 50px;
 }
-.data3-list div{
-      background: #262626;
-      padding: 40px;
-      font-size: 13px;
-      font-weight: 300;
-      border-radius: 20px;
+
+.data3-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s ;
 }
-.data3-list div h2{
+
+.data3-list div h2 {
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
 }
-.data3-list div a{
+
+.data3-list div a {
     text-decoration: none;
-    color: #fff;ip
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.data3-list div:hover{
+    background: #50031b;
+    transform: translateX(-10px);
+    /* it will move the box right 10px */
+
 }
