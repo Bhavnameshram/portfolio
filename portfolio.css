@@ -286,23 +286,45 @@ nav ul li a:hover::after {
 }
 
 .btn5 {
+
     display: block;
-    margin: 50px auto;
+    margin: 30px auto;
     /* t,b and l,r  it will be center*/
     /* flex-direction: row; */
     width: fit-content;
     border: 1px solid #50031b;
-    padding: 14px 50px;
-    border-radius: 6px;
+    padding: 12px 30px;
+    border-radius: 8px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s ease;
+    transition: background 0.3s;
+    margin-top: 40px;
 }
+
 
 
 .btn5:hover {
-    background:#50031b ;
+    background: #50031b;
 }
 
 /* ----------con-left-------- */
-.con-left{}
+
+.row {
+    margin-top: 100px;
+}
+
+.con-left {
+
+    margin-left: 30px;
+}
+
+.con-right {
+
+    margin-right: 30px;
+
+}
+
+.con-left p {
+
+    margin-top: 30px;
+}
