@@ -197,7 +197,7 @@ nav ul li a:hover::after {
     font-size: 13px;
     font-weight: 300;
     border-radius: 20px;
-    transition: background 0.5s, transform 0.5s ;
+    transition: background 0.5s, transform 0.5s;
 }
 
 .data3-list div h2 {
@@ -213,41 +213,47 @@ nav ul li a:hover::after {
     margin-top: 20px;
     display: inline-block;
 }
-.data3-list div:hover{
+
+.data3-list div:hover {
     background: #50031b;
     transform: translateX(-10px);
     /* it will move the box right 10px */
 
 }
+
 /*------------ portfolio---------------- */
-#portfolio{
+#portfolio {
     margin-left: 30px;
     margin-top: 30px;
 }
-.worklist{
+
+.worklist {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
     margin-top: 50px;
 }
-.work{
+
+.work {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-   
+
 }
-.work img{
+
+.work img {
     width: 100%;
     border-radius: 20px;
     display: block;
     transition: transform 0.5s;
-    
-} 
-.layer{
+
+}
+
+.layer {
     width: 100%;
     /* height:100% ; */
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#420116);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #50031b);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -260,18 +266,40 @@ nav ul li a:hover::after {
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
-    transition: height 0.5s ;
+    transition: height 0.5s;
 
-} 
-.layer h3{
-    font-weight:500 ;
+}
+
+.layer h3 {
+    font-weight: 500;
     margin-bottom: 20px;
 }
-.work:hover img{
+
+.work:hover img {
     transform: scale(1.1);
     /* it is x axis and y axis heght width */
 
 }
-.work:hover .layer{
+
+.work:hover .layer {
     height: 100%;
+}
+
+.btn5 {
+    display: block;
+    margin: 50px auto;
+    /* t,b and l,r  it will be center*/
+    /* flex-direction: row; */
+    width: fit-content;
+    border: 1px solid #50031b;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s ease;
+}
+
+
+.btn5:hover {
+    background:#50031b ;
 }
