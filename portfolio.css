@@ -352,4 +352,21 @@ form btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+.btn6{
+
+    display:flex;
+    margin: 30px auto;
+    /* t,b and l,r  it will be center*/
+    /* flex-direction: row; */
+    /* width: fit-content; */
+    width: 150px;
+    height: 30px;
+    border: 1px solid #50031b;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s;
+    margin-top: 40px;
+}
 
