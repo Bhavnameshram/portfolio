@@ -328,10 +328,25 @@ nav ul li a:hover::after {
 
     margin-top: 30px;
 }
-/* .btn5.btn3{
-    display:inline-block;
+.btn5-bt1{
+    display: block;
+    margin: 30px auto;
+    /* t,b and l,r  it will be center*/
+    /* flex-direction: row; */
+    width: fit-content;
+    border: 1px solid #50031b;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s;
+    margin-top: 40px;
+}
+
+.btn5-bt1:hover {
+ 
     background: #50031b;
-} */
+}
 .con-right form{
 width: 100%;
 }
@@ -352,21 +367,3 @@ form btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-.btn6{
-
-    display:flex;
-    margin: 30px auto;
-    /* t,b and l,r  it will be center*/
-    /* flex-direction: row; */
-    /* width: fit-content; */
-    width: 150px;
-    height: 30px;
-    border: 1px solid #50031b;
-    padding: 12px 30px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #fff;
-    transition: background 0.3s;
-    margin-top: 40px;
-}
-
