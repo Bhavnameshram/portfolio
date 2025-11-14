@@ -29,8 +29,8 @@ body {
 
 .container {
     padding: 10px 10%;
+    /* if 10px top & bottom , 10% left & rights side */
 
-    /* display: flex; */
 }
 
 nav {
@@ -51,6 +51,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+     /* if 10px top & bottom , 20px left & rights side */
 }
 
 nav ul li a {
@@ -142,7 +143,7 @@ nav ul li a:hover::after {
     position: relative;
 }
 
-.data-link:: after {
+.data-link::after {
     content: '';
     width: 0;
     height: 3px;
@@ -153,7 +154,7 @@ nav ul li a:hover::after {
     transition: 0.5s;
 }
 
-.data-links.2nd-link::after {
+.data-links-2nd-link::after {
     width: 50%;
 }
 
@@ -350,8 +351,9 @@ nav ul li a:hover::after {
 .con-right form{
 width: 100%;
 }
-form input, form textarea{
-    gap: 10px;
+form input{
+    margin-bottom: 20px;
+    gap: 30px;
     width: 100%;
     border:0 ;
     outline:none ;
