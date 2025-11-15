@@ -173,7 +173,7 @@ nav ul li a:hover::after {
     font-size: 14px;
 }
 
-.data2-2 {
+.data2-2  { 
     display: none;
     /* it will be hide a tab content */
 }
